@@ -1,0 +1,10 @@
+name: Basicschulung
+on:
+  push:
+  workflow_dipatch:
+
+jobs:
+  build:
+    name: my first action
+    runs-on: ubuntu-latest
+    
